@@ -13,7 +13,7 @@ $(call inherit-product, vendor/oneplus/hotdog/hotdog-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-custom
+    $(LOCAL_PATH)/overlay-aosp
 
 # A/B
 AB_OTA_PARTITIONS += \
